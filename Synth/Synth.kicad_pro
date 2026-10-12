@@ -394,6 +394,10 @@
     [
       "d3ca7070-732b-4aea-b4cd-d6ebaeed09cb",
       "VCA"
+    ],
+    [
+      "7b8a0b03-572d-439a-a25a-4cb0200615a4",
+      "Sequencer"
     ]
   ],
   "text_variables": {}

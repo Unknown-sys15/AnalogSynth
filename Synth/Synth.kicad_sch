@@ -7603,6 +7603,53 @@
 		(uuid "d6551d54-8ee3-49e1-8eab-4c756276bbd5")
 	)
 	(sheet
+		(at 88.9 33.02)
+		(size 24.13 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b8a0b03-572d-439a-a25a-4cb0200615a4")
+		(property "Sheetname" "Sequencer"
+			(at 88.9 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sequencer.kicad_sch"
+			(at 88.9 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Synth"
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 60.96 33.02)
 		(size 21.59 21.59)
 		(fields_autoplaced yes)
@@ -7650,7 +7697,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 31.75)
+		(at 35.56 33.02)
 		(size 20.32 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -7662,7 +7709,7 @@
 		)
 		(uuid "eef404fb-a3ae-4eb4-93a4-146e32389aac")
 		(property "Sheetname" "VCO"
-			(at 26.67 31.0384 0)
+			(at 35.56 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7718,7 @@
 			)
 		)
 		(property "Sheetfile" "VCO.kicad_sch"
-			(at 26.67 53.9246 0)
+			(at 35.56 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7727,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 26.67 31.75 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

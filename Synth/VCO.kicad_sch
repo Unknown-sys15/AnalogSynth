@@ -4,5 +4,1198 @@
 	(generator_version "8.0")
 	(uuid "2e17ff6a-64df-4f9b-adf1-d9746b8101ef")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "74xGxx:SN74LVC1G14DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74LVC1G14DBV"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOT Schmitt LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G14DBV_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G14DBV_1_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 5.08 180)
+					(length 5.08) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Amplifier_Operational:TL074"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 106.68 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0166cc99-45f2-45ac-b37b-a0500c7c1883")
+		(property "Reference" "U1"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a8ef89c-bed0-4763-8815-98fde88c6eeb")
+		)
+		(pin "3"
+			(uuid "71a066ce-4f09-487a-abf5-bdf3194a0942")
+		)
+		(pin "7"
+			(uuid "30cda22c-4d22-4ae5-aa44-8e759fafacb6")
+		)
+		(pin "5"
+			(uuid "4721585f-c8d7-46b8-9b2a-39dce9e2b116")
+		)
+		(pin "4"
+			(uuid "190d05b4-5fdd-433e-8fd3-1f37e19695ef")
+		)
+		(pin "2"
+			(uuid "0d695a51-fc84-4eb2-b489-ff61cb7d9d20")
+		)
+		(pin "8"
+			(uuid "9d7fa925-b480-4f13-9ef8-99cce2345c1b")
+		)
+		(pin "10"
+			(uuid "971d9301-9290-4813-8cbc-fd8d2a028e99")
+		)
+		(pin "9"
+			(uuid "700d6bfa-b515-44be-9132-9428657539aa")
+		)
+		(pin "14"
+			(uuid "e7f63001-b15a-4713-8c2a-4fd6a1803a61")
+		)
+		(pin "1"
+			(uuid "123df4dd-731c-484e-9912-37a1a7e9ad35")
+		)
+		(pin "11"
+			(uuid "30e3147a-dfc1-4b79-aed2-83ff27a961d7")
+		)
+		(pin "12"
+			(uuid "59f5c342-f400-417e-adfd-2af32cc6ee63")
+		)
+		(pin "13"
+			(uuid "30c8749c-ac99-4912-ab9d-3c71f9429082")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 95.25 66.04 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "104a16f8-f817-463c-8a0d-783f3c9a46a7")
+		(property "Reference" "U1"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a8ef89c-bed0-4763-8815-98fde88c6eeb")
+		)
+		(pin "3"
+			(uuid "71a066ce-4f09-487a-abf5-bdf3194a0942")
+		)
+		(pin "7"
+			(uuid "30cda22c-4d22-4ae5-aa44-8e759fafacb6")
+		)
+		(pin "5"
+			(uuid "4721585f-c8d7-46b8-9b2a-39dce9e2b116")
+		)
+		(pin "4"
+			(uuid "190d05b4-5fdd-433e-8fd3-1f37e19695ef")
+		)
+		(pin "2"
+			(uuid "0d695a51-fc84-4eb2-b489-ff61cb7d9d20")
+		)
+		(pin "8"
+			(uuid "9d7fa925-b480-4f13-9ef8-99cce2345c1b")
+		)
+		(pin "10"
+			(uuid "971d9301-9290-4813-8cbc-fd8d2a028e99")
+		)
+		(pin "9"
+			(uuid "700d6bfa-b515-44be-9132-9428657539aa")
+		)
+		(pin "14"
+			(uuid "e7f63001-b15a-4713-8c2a-4fd6a1803a61")
+		)
+		(pin "1"
+			(uuid "123df4dd-731c-484e-9912-37a1a7e9ad35")
+		)
+		(pin "11"
+			(uuid "30e3147a-dfc1-4b79-aed2-83ff27a961d7")
+		)
+		(pin "12"
+			(uuid "59f5c342-f400-417e-adfd-2af32cc6ee63")
+		)
+		(pin "13"
+			(uuid "30c8749c-ac99-4912-ab9d-3c71f9429082")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 95.25 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a43a836-c2a4-43a5-9c6d-fa7eb613a556")
+		(property "Reference" "U1"
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a8ef89c-bed0-4763-8815-98fde88c6eeb")
+		)
+		(pin "3"
+			(uuid "71a066ce-4f09-487a-abf5-bdf3194a0942")
+		)
+		(pin "7"
+			(uuid "30cda22c-4d22-4ae5-aa44-8e759fafacb6")
+		)
+		(pin "5"
+			(uuid "4721585f-c8d7-46b8-9b2a-39dce9e2b116")
+		)
+		(pin "4"
+			(uuid "190d05b4-5fdd-433e-8fd3-1f37e19695ef")
+		)
+		(pin "2"
+			(uuid "0d695a51-fc84-4eb2-b489-ff61cb7d9d20")
+		)
+		(pin "8"
+			(uuid "9d7fa925-b480-4f13-9ef8-99cce2345c1b")
+		)
+		(pin "10"
+			(uuid "971d9301-9290-4813-8cbc-fd8d2a028e99")
+		)
+		(pin "9"
+			(uuid "700d6bfa-b515-44be-9132-9428657539aa")
+		)
+		(pin "14"
+			(uuid "e7f63001-b15a-4713-8c2a-4fd6a1803a61")
+		)
+		(pin "1"
+			(uuid "123df4dd-731c-484e-9912-37a1a7e9ad35")
+		)
+		(pin "11"
+			(uuid "30e3147a-dfc1-4b79-aed2-83ff27a961d7")
+		)
+		(pin "12"
+			(uuid "59f5c342-f400-417e-adfd-2af32cc6ee63")
+		)
+		(pin "13"
+			(uuid "30c8749c-ac99-4912-ab9d-3c71f9429082")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 102.87 148.59 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e474e0-9d6b-40c1-8cd6-0b860ef9efe5")
+		(property "Reference" "U1"
+			(at 101.6 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 101.6 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a8ef89c-bed0-4763-8815-98fde88c6eeb")
+		)
+		(pin "3"
+			(uuid "71a066ce-4f09-487a-abf5-bdf3194a0942")
+		)
+		(pin "7"
+			(uuid "30cda22c-4d22-4ae5-aa44-8e759fafacb6")
+		)
+		(pin "5"
+			(uuid "4721585f-c8d7-46b8-9b2a-39dce9e2b116")
+		)
+		(pin "4"
+			(uuid "190d05b4-5fdd-433e-8fd3-1f37e19695ef")
+		)
+		(pin "2"
+			(uuid "0d695a51-fc84-4eb2-b489-ff61cb7d9d20")
+		)
+		(pin "8"
+			(uuid "9d7fa925-b480-4f13-9ef8-99cce2345c1b")
+		)
+		(pin "10"
+			(uuid "971d9301-9290-4813-8cbc-fd8d2a028e99")
+		)
+		(pin "9"
+			(uuid "700d6bfa-b515-44be-9132-9428657539aa")
+		)
+		(pin "14"
+			(uuid "e7f63001-b15a-4713-8c2a-4fd6a1803a61")
+		)
+		(pin "1"
+			(uuid "123df4dd-731c-484e-9912-37a1a7e9ad35")
+		)
+		(pin "11"
+			(uuid "30e3147a-dfc1-4b79-aed2-83ff27a961d7")
+		)
+		(pin "12"
+			(uuid "59f5c342-f400-417e-adfd-2af32cc6ee63")
+		)
+		(pin "13"
+			(uuid "30c8749c-ac99-4912-ab9d-3c71f9429082")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 106.68 119.38 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95b2e8d1-944b-44b2-9fe2-481de33cd587")
+		(property "Reference" "U1"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a8ef89c-bed0-4763-8815-98fde88c6eeb")
+		)
+		(pin "3"
+			(uuid "71a066ce-4f09-487a-abf5-bdf3194a0942")
+		)
+		(pin "7"
+			(uuid "30cda22c-4d22-4ae5-aa44-8e759fafacb6")
+		)
+		(pin "5"
+			(uuid "4721585f-c8d7-46b8-9b2a-39dce9e2b116")
+		)
+		(pin "4"
+			(uuid "190d05b4-5fdd-433e-8fd3-1f37e19695ef")
+		)
+		(pin "2"
+			(uuid "0d695a51-fc84-4eb2-b489-ff61cb7d9d20")
+		)
+		(pin "8"
+			(uuid "9d7fa925-b480-4f13-9ef8-99cce2345c1b")
+		)
+		(pin "10"
+			(uuid "971d9301-9290-4813-8cbc-fd8d2a028e99")
+		)
+		(pin "9"
+			(uuid "700d6bfa-b515-44be-9132-9428657539aa")
+		)
+		(pin "14"
+			(uuid "e7f63001-b15a-4713-8c2a-4fd6a1803a61")
+		)
+		(pin "1"
+			(uuid "123df4dd-731c-484e-9912-37a1a7e9ad35")
+		)
+		(pin "11"
+			(uuid "30e3147a-dfc1-4b79-aed2-83ff27a961d7")
+		)
+		(pin "12"
+			(uuid "59f5c342-f400-417e-adfd-2af32cc6ee63")
+		)
+		(pin "13"
+			(uuid "30c8749c-ac99-4912-ab9d-3c71f9429082")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:SN74LVC1G14DBV")
+		(at 49.53 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad5dbffa-c329-480d-9215-8e6d8604d19a")
+		(property "Reference" "U2"
+			(at 64.77 158.7814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G14DBV"
+			(at 64.77 161.3214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "940fa73e-d5ba-4900-a9fb-6cbab2ae5dd2")
+		)
+		(pin "1"
+			(uuid "2fb97249-5932-4b81-8fe1-a483a604ad8a")
+		)
+		(pin "2"
+			(uuid "b3821f1a-fc69-4b17-a571-d92b14aefedf")
+		)
+		(pin "3"
+			(uuid "7b4f0c20-661e-4719-9003-41f0f34688d9")
+		)
+		(pin "5"
+			(uuid "1625c370-6147-47b5-8dbf-f420d9df65ed")
+		)
+		(instances
+			(project ""
+				(path "/ec39c741-f5f8-424a-a9fe-47b13645d3cb/eef404fb-a3ae-4eb4-93a4-146e32389aac"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
